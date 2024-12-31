@@ -6,9 +6,7 @@
 
 start = 1
 stop = 100
-
-i = 0
-while start < 100:
-    result = start + start
-    print(i)
-    i= i+ 1
+sum = 0
+for i in range(start,stop +1):
+    sum = sum + i
+print(f"The sum is: {sum}")

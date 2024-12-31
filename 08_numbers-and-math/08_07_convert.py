@@ -6,3 +6,11 @@
 # 4) Use two variables to perform a multiplication.
 #
 # What information is lost during which conversions?
+
+number = 7
+number = float(number)
+number_2 = 7.141
+number_2 = int(number_2)
+result = number * number_2
+
+print(result)

@@ -8,3 +8,10 @@
 # for example flags and conditional statements.
 
 filename = "operators.pdf"
+ext = ''
+for i in range(len(filename) -1, len(filename) -4, -1):
+    ext =filename[i] + ext
+    
+    
+if ext == "pdf":
+    print(True)

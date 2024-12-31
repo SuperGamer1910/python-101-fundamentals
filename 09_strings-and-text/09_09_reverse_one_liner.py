@@ -2,5 +2,6 @@
 # with the help of string slicing.
 
 palindrome = "too bad i hid a boot"
-
-print(palindrome[1:0])
+palindrome_2 = palindrome.replace(" ", "")
+print(palindrome_2)
+print(palindrome_2 == palindrome_2[::-1])
